@@ -58,7 +58,6 @@ LAYOUT
 /*
 LOADING
 ================================================ */
-/* ----- ↓↓ 追加 ↓↓ ----- */
 #loading {
     background-color: var(--light-grey);
     position: fixed;
@@ -78,7 +77,6 @@ LOADING
     font-size: 2rem;
     font-family: var(--oswald-font);
 }
-/* ----- ↑↑ 追加 ↑↑ ----- */
 
 /*
 HERO
