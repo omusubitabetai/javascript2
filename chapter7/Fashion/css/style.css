@@ -45,6 +45,9 @@ img {
     margin: 2rem 0;
     transition: .4s;
 }
+.fadein{
+    opacity: 0;
+}
 
 /*
 LAYOUT
@@ -61,8 +64,8 @@ LOADING
 #loading {
     background-color: var(--light-grey);
     position: fixed;
-    inset: 0;
     z-index: 9999;
+    inset: 0;
     display: grid;
     place-items: center;
 }
@@ -81,7 +84,6 @@ LOADING
 /*
 SLIDE MENU
 ================================================ */
-/* ----- ↓↓ 追加 ↓↓ ----- */
 /* 開閉ボタン */
 .btn-menu {
     position: fixed;
@@ -136,7 +138,6 @@ SLIDE MENU
     text-decoration: none;
     font-size: 2rem;
 }
-/* ----- ↑↑ 追加 ↑↑ ----- */
 
 /*
 HERO
